@@ -1,0 +1,124 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+@media (max-width: 451.98px){
+/* menu part start  */
+.navbar-light .navbar-brand {
+    font-size: 24px;
+}   
+.navbar-nav {
+    text-align: center;
+}
+/* menu part end */ 
+
+/* banner part start */
+.banner-content h1 {
+	font-size: 30px;
+}
+.banner-content p {
+	font-size: 16px;
+}
+/* banner part end */
+
+/* about part start  */
+.about-content h1 {
+	font-size: 30px;
+}
+.about-content p {
+	font-size: 14px;
+	text-align: justify;
+}
+/* about part end  */
+
+/* call part start */
+.call-content p {
+	font-size: 22px;
+	text-align: center;
+}
+.buttn{
+    text-align: center;
+}
+/* call part end */
+
+/* slider part start */
+.slider-content p {
+	font-size: 16px;
+	font-style: italic;
+}
+/* slider part end */
+
+/* footer part start */
+.footer-content p {
+	font-size: 12px;
+}
+/* footer part end */
+}   
+/*`sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 452px) and (max-width: 575.98px) { 
+/* menu part start  */  
+.navbar-nav {
+    text-align: center;
+}
+/* menu part end */ 
+
+/* banner part start */
+.banner-content h1 {
+	font-size: 30px;
+}
+.banner-content p {
+	font-size: 16px;
+}
+/* banner part end */
+
+/* about part start  */
+.about-content h1 {
+	font-size: 30px;
+}
+.about-content p {
+	font-size: 14px;
+	text-align: justify;
+}
+/* about part end  */
+
+/* call part start */
+.call-content p {
+	font-size: 22px;
+	text-align: center;
+}
+.buttn{
+    text-align: center;
+}
+/* call part end */
+
+/* slider part start */
+.slider-content p {
+	font-size: 16px;
+	font-style: italic;
+}
+/* slider part end */
+
+/* footer part start */
+.footer-content p {
+	font-size: 12px;
+}
+/* footer part end */
+}
+    
+    
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* menu part start  */  
+.navbar-nav {
+    text-align: center;
+}
+/* menu part end */   
+}
+    
+    
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+            
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+        
+}
